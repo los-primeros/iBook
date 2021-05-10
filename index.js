@@ -1,18 +1,19 @@
-const express = require('express') ; 
-const app = express() ; 
+const express = require('express');
+const app = express(); 
+// const db = require("/db/database/index.js");
+// const Hotel = require("/db/models/hotel.js");
+const PORT = 4023;
 
-const PORT = 4023 ; 
-
-app.use(express.json()) 
+app.use(express.json())
 app.use(express.urlencoded({ extended: true }));
-
 app.use(express.static(__dirname + "/client/dist"));
 
 
-app.get('/',(req,res)=>{
+
+app.get('/', (req, res) => {
   res.render('index')
-}) 
+})
 
 app.listen(PORT, () => {
-    console.log(`http://localhost:${PORT}`)
-}) 
+  console.log(`http://localhost:${PORT}`)
+})
