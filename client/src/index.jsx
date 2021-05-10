@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import Home from './components/home.jsx'
 import About from './components/about.jsx'
 
+
 class App extends React.Component {
     constructor(props){
         super(props);
@@ -45,6 +46,7 @@ class App extends React.Component {
                       (this.state.currentView === 'Home') ? (<Home/>) : (<About/>)  
                   }
               </div>
+              
              </div>
         )
     }
