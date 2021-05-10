@@ -1,4 +1,4 @@
-import React from "React" ; 
+import React from "react" ; 
 import ReactDOM from 'react-dom'; 
 import Home from './components/home.jsx'
 import About from './components/about.jsx'

@@ -4,7 +4,6 @@
   "description": "FullStack Green filed",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "react-dev": "webpack -d --watch",
     "server-dev": "nodemon index.js"
   },
@@ -20,6 +19,7 @@
   "homepage": "https://github.com/lokmen-abid/iBook#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "mongoose": "^5.12.8",
     "nodemon": "^2.0.7",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
