@@ -5,14 +5,10 @@ class App extends React.Component {
     render() {
         return (
             <div> 
-               <h1> iBook </h1>   
-               <p> GOOD LUCK Guys in this project i hope everyone did his best and will <br> 
-                do our bests to succed nshalah and don't be lazy please 
-               </br></p>
+               hhhh
              </div>
         )
     }
-
 }
 
 ReactDOM.render(<App/> , document.getElementById("app"))
