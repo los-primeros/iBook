@@ -1,7 +1,7 @@
 import React from "react" ; 
 import ReactDOM from 'react-dom'; 
-import Home from './components/home.jsx'
-import About from './components/about.jsx'
+import Home from './components/Home.jsx'
+import About from './components/About.jsx'
 
 class App extends React.Component {
     constructor(props){
