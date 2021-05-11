@@ -1,6 +1,5 @@
 import React from 'react';
-import { Button } from 'react-bootstrap'
-import { Card } from '@material-ui/core';
+
 
 
 class hotelDetails extends React.Component {
