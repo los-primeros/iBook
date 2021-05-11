@@ -1,7 +1,9 @@
-import React from "React" ; 
+import React from "react" ; 
 import ReactDOM from 'react-dom'; 
-import Home from './components/home.jsx'
-import About from './components/about.jsx'
+
+import Home from './components/Home.jsx'
+import About from './components/About.jsx'
+
 
 class App extends React.Component {
     constructor(props){
@@ -32,6 +34,7 @@ class App extends React.Component {
     render() {
         return (
             <div className="App"> 
+            <Stylesheet/>
             <h1>
 
             <button onClick={() => {this.ToggleView('Home')}}>Login</button>
