@@ -52,7 +52,7 @@
         "address": "Zone touristique El Morgene، 1 Tabarka Touristic Road, Tabarka 8110 ",
         "Description": "Ideally located near the charming historic village of Tabarka, on the superb North-West coastline of Tunisia, La Cigale Tabarka Thalasso, SPA and Golf is a magic place where refined luxury, traditional hospitality, and lush greenery mix together. A perfect North-African evasion located in the tourist zone of Mourjane, 2 km from the historic downtown and 12 km from Tabarka international airport. The hotel has 248 rooms and suites, five restaurants which offer different menus, five luxurious bars, a Turkish coffee and a large selection of areas for leisure and business.",
         "image": "pictures/tunisia/la-cigale-tabarka.jpg",
-        "rate": 4.3,
+        "rate": 5,
         "country": "Tunisie"
     },
     {
@@ -108,7 +108,7 @@
         "address": "Rue Abou Abbas El Sebti، 40000, Morocco",
         "Description": "Feel the full strength of the city’s pulse as you enter the doors of the Royal Mansour. Traditional architecture, lush gardens and outstandingly sophisticated riads await you. The design of this luxury hotel in Marrakesh incorporates the elements of an authentic medina, where guests can stroll around and discover sensual delights. The rooms and suites have been replaced by luxurious riads, and the corridors by winding alleyways. The Royal Mansour Marrakech is the only hotel establishment in the world to offer this unique concept.",
         "image": "pictures/maroc/royal_mansour_marrakech.jpg",
-        "rate": 4.8,
+        "rate": 5,
         "country": "Morocco"
     },
     {
@@ -228,7 +228,7 @@
         "address": "Gaferli Mahallesi, Aydın Kırağı Sk. NO: 22, 50180 Göreme/Nevşehir Merkez/Nevşehir, Turquie",
         "Description": "We welcome you to our luxury cave hotel in the heart of Goreme, Cappadocia.Relax in one of our 24 uniquely designed cave rooms or 4 stone rooms, ranging from cave rooms, deluxe cave or cave suites. Enjoy the magnificent views over the valleys and the balloons at sunrise from our terraces or indulge in our traditional Turkish Bath. Whatever you decide to do, we can guarantee your stay will be unforgettable.",
         "image": "pictures/turkey/artemis.jpg",
-        "rate": 4.8,
+        "rate": 5,
         "country": "turkey"
     },
     {
@@ -300,7 +300,7 @@
         "address": "Kranidi 213 00, Grèce",
         "Description": "Amanzoe – Greece’s most exclusive hotel – is a hilltop property, laying amongst centuries old olive groves. Located within easy reach of a wealth of archaeological sites and the cosmopolitan island of Spetses, the resort boasts panoramic views of the Peloponnese countryside, the glittering tranquil sea, the neighboring vineyards, and the awe-inspiring mountains. Designed by quintessential Aman architect Ed Tuttle, this exclusive haven of unsurpassed beauty has quickly become the Mediterranean playground of those in the know. Classically inspired yet sleekly contemporary, Amanzoe’s Pavilions and Villas open to expansive private terraces, creating a seamless extension of the airy interiors and an unrivaled sense of space and seclusion. A stone’s throw away, the Amanzoe beach club comes with two lap pools and two children’s pools and provides fun and games in total privacy by the water.",
         "image": "pictures/greece/amanzoe.jpg",
-        "rate": 4.9,
+        "rate": 5,
         "country": "Greece"
     },
     {
@@ -388,7 +388,7 @@
         "address": "Platja d'en Bossa, s/n, 07817 Sant Jordi de ses Salines, Islas Baleares, Spain",
         "Description": " Hard Rock Hotel Ibiza is located right on the beachfront in Playa d'en Bossa. This modern hotel has a large open-air stage hosting prestigious weekly concerts. Free WiFi is available throughout the property.This large hotel has 2 outdoor pools and a spa with a hot tub and sauna, as well as a gym. There is also an exclusive private beach club with beach bar next to the hotel, and a range of chill-out areas.Hard Rock Ibiza is decorated with a range of music memorabilia. The stylish, air-conditioned rooms feature a flat-screen TV, a minibar and a private bathroom with a hairdryer, bathrobe and slippers. The windows also have blackout curtains.",
         "image": "pictures/spain/hardrock.jpg",
-        "rate": 4.7,
+        "rate": 5,
         "country": "Spain"
     },
     {
