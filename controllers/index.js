@@ -7,4 +7,15 @@ exports.add = async (req, res) => {
     } catch (err) {
       console.error(err);
     }
+  }; 
+
+  exports.getAll = (req, res) => {
+    // your code here
+    User.find()
+      .then((users) => {
+        res.send(users);
+      })
+      .catch((err) => {
+        console.error(err);
+      });
   };
