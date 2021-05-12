@@ -1,18 +1,17 @@
-import React from "React";
+import React from "React"
 
 class SignUp extends React.Component {
     constructor(props) {
         super(props)
+        this.state = {
 
-        this.state = {}
-
+        }
     }
     submitSignUp(event) {
 
     }
 
     render() {
-
         return (
 
             <div className="inner-Container">
