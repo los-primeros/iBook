@@ -3,6 +3,7 @@ const app = express();
 const db = require("./db/index.js");
 // const Hotel = require("/db/models/hotel.js");
 const bodyParser = require("body-parser");
+const path = require("path");
 const morgan = require("morgan");
 const controllers = require("./controllers/index.js");
 
@@ -20,6 +21,10 @@ app.post("/signup", controllers.add)
 // app.get('/', (req, res) => {
 //   res.render('index')
 // })
+
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname,"client/dist" , "index.html"))
+})
 
 app.listen(PORT, () => {
   console.log(`http://localhost:${PORT}`)
