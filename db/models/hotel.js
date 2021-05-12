@@ -8,6 +8,6 @@ const hotelSchema = new mongoose.Schema({
     "rate": Number,
     "country": String
 });
-const Hotel = mongoose.model('Hotel', hotelSchema);
+const Hotel = mongoose.model('Hotel', hotelSchema); 
 
 module.exports = Hotel
