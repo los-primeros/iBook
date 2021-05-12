@@ -3,6 +3,7 @@ import React from "React" ;
 var HotelCard=(props)=>(
   
     <div>
+      {/* {console.log(props.hotel.image)} */}
      <div className="card">
       <img src={props.hotel.image} />
       <div className="card-container">
@@ -12,6 +13,7 @@ var HotelCard=(props)=>(
           <span>{props.hotel.address}</span>
         </h4>
         <p>{props.hotel.Description}</p>
+        <p>{props.hotel.price}</p>
       </div>
     </div>
   </div>

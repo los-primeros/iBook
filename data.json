@@ -5,6 +5,7 @@
         "Description": " In the heart of Tunisia’s vibrant and exotic capital city, our modern Mediterranean oasis offers a calm, laid-back beachfront escape alongside this bustling business hub. Relax at our Spa and pools, stay connected with state-of-the-art business services, or take a step back in time – more than 3,000 years of ancient civilization are at your fingertips.",
         "image": "pictures/tunisia/four-seasons.jpg",
         "rate": 4.5,
+        "price" : "270$", 
         "country": "Tunisia"
     },
     {
@@ -13,6 +14,7 @@
         "Description": "Overlooking Tunisia's capital city, Sheraton Tunis Hotel showcases tastefully decorated hotel rooms and suites with a private balcony and fantastic on-site restaurants. Other luxury amenities include a spa, heated pool, fitness center and ideal location.",
         "image": "pictures/tunisia/sheraton.jpg",
         "rate": 3.7,
+        "price" : "155$", 
         "country": "Tunisia"
     },
     {
@@ -21,14 +23,16 @@
         "Description": " This luxurious hotel is located in the Hammamet Gulf and has 2 swimming pools, shopping center, sports facilities, free Wi-Fi, thalassotherapy center and children's playground.The modern rooms at the Laico Hammamet have air conditioning, satellite TV, a minibar, a balcony and a private bathroom with a hairdryer, free toiletries ",
         "image": "pictures/tunisia/laico.jpg",
         "rate": 4.6,
+        "price" : "140$", 
         "country": "Tunisia"
     },
     {
-        "name": "Mövenpick ",
+        "name": "Mövenpick Sousse",
         "address": "Boulevard du 14 Janvier, Sousse 4039",
         "Description": " On the horizon of Tunisia’s liveliest town, Sousse, lies the Mövenpick Resort & Marine Spa Sousse. Stretched out along a sparkling beachfront, this exquisite getaway offers all you expect from a perfect holiday experience. ",
         "image": "pictures/tunisia/movenpick.png",
         "rate": 4.3,
+        "price" : "195$", 
         "country": "Tunisia"
     },
     {
@@ -37,23 +41,26 @@
         "Description": "The HASDRUBAL prestige a hotel that combines the traditions of luxury hotels refinements of every moment and discretion.On the seafront, with a private beach, the hotel HASDRUBAL prestige is located near the Casino de Djerba, and 10 minutes by car from the golf course-27 holes of Djerba, and 18km from the airport Djerba-Zarsis.",
         "image": "pictures/tunisia/Hasdrubal_djerba.jpg",
         "rate": 4.5,
+        "price" : "160$", 
         "country": "Tunisia"
     },
     {
-        "name": "The Residence Tunis ",
+        "name": "The Residence Tunis",
         "address": " Rue de la côte d'Ivoire, Marsa ",
         "Description": "Along the glistening shores of the azure Mediterranean Sea, where ancient Carthage once ruled, The Residence Tunis combines sensual elegance inspired by Tunisias Arab-Andalusian heritage with the refined hospitality. Step into a haven of sophistication set along an unspoilt stretch of beach, where relaxation reigns in a luxurious 4000sqm thalasso spa inspired by the magical atmosphere of ancient Roman thermal baths, with treatments curated by ESPA. Surrounded by the natural beauty and panoramic views of the Tunisian landscape; experience the thrill of playing the magnificent 18-hole resort golf course designed by Robert Trent Jones II; one of the most beautiful championship courses in North Africa. Discover the delights of Tunisia from quiet spa relaxation to active golfing to gourmet dining; here every moment of your luxury vacation is fulfilled without ever having to leave the resort.",
         "image": "pictures/tunisia/the residence.jpeg",
         "rate": 4.6,
+        "price" : "160$", 
         "country": "Tunisia"
     },
     {
-        "name": "LA CIGALE TABARKA ",
+        "name": "LA CIGALE TABARKA",
         "address": "Zone touristique El Morgene، 1 Tabarka Touristic Road, Tabarka 8110 ",
         "Description": "Ideally located near the charming historic village of Tabarka, on the superb North-West coastline of Tunisia, La Cigale Tabarka Thalasso, SPA and Golf is a magic place where refined luxury, traditional hospitality, and lush greenery mix together. A perfect North-African evasion located in the tourist zone of Mourjane, 2 km from the historic downtown and 12 km from Tabarka international airport. The hotel has 248 rooms and suites, five restaurants which offer different menus, five luxurious bars, a Turkish coffee and a large selection of areas for leisure and business.",
         "image": "pictures/tunisia/la-cigale-tabarka.jpg",
         "rate": 5,
-        "country": "Tunisie"
+        "price" : "160$", 
+        "country": "Tunisia"
     },
     {
         "name": "Anantara Sahara Tozeur",
@@ -61,14 +68,16 @@
         "Description": " Head to the desert for stillness, adventure and breath-taking beauty. Anantara Sahara Tozeur Resort Villas is your luxurious gateway to the majesty of the Sahara. Wake up to desert sunrises from the privacy of your pool villa at one of the best Tunisia hotels. Drive through the dramatic Atlas Mountains to the abandoned villages of Chebika, Tamerza and Mides. Return to the resort for poolside bliss, hammam spa rituals, and dining under the stars in Berber style.",
         "image": "pictures/tunisia/anantara.jpg",
         "rate": 4.2,
+        "price" : "250$", 
         "country": "Tunisia"
     },
     {
-        "name": "Royal Garden Palace ",
+        "name": "Royal Garden Palace",
         "address": "Zone Touristique Sidi Akkour B.P. 83, 4116",
         "Description": " Located in Midoun, a 4-minute walk from Plage de Sidi Mahrez, Royal Garden Palace - Couples and Families Only provides accommodations with a restaurant, free private parking, an outdoor swimming pool and a bar. With a shared lounge, the property also features a garden, as well as a private beach area. The hotel has an indoor pool, hot tub, evening entertainment and a 24-hour front desk. Free WiFi is available to all guests, while selected rooms have a patio. A buffet breakfast is available daily at the hotel. Royal Garden Palace - Couples and has a playground. You can play ping pong at the accommodation, and car rental is available. Meridiana Beach is 1.3 miles from Royal Garden Palace - Couples and Families Only, while Mezraia Beach is 1.3 miles away.",
         "image": "pictures/tunisia/royal garden.jpg",
         "rate": 4.1,
+        "price" : "180$", 
         "country": "Tunisia"
     },
     {
@@ -77,14 +86,16 @@
         "Description": "The Radisson Blu Palace Resort & Thalasso, Djerba lies only a short walk away from the white sandy beaches of the Mediterranean Sea. Within a few minutes of the hotel, you'll find a casino, the Djerba Golf Club and a popular market in the town of Houmt Souk. ",
         "image": "pictures/tunisia/blu palace.jpg",
         "rate": 4,
+        "price" : "128$", 
         "country": "Tunisia"
     },
     {
-        "name": "MANDARINE ORIENTAL ",
+        "name": "MANDARINE ORIENTAL",
         "address": "Route Golf Royal, Marrakech 40000, Morocco",
         "Description": " Lying in 20 hectares of fragrant gardens and olive groves, Mandarin Oriental, Marrakech is a five-star luxury resort only minutes from the city centre. With excellent facilities and world-class dining, we offer the ultimate Moroccan escape.",
         "image": "pictures/maroc/hotel-Mandarin.jpg",
         "rate": 4.5,
+        "price" : "780$", 
         "country": "Morocco"
     },
     {
@@ -93,6 +104,7 @@
         "Description": "Set in Taghazout, 600 m from Taghazout Beach, Amouage by Surf Maroc offers accommodation with a restaurant, free private parking, an outdoor swimming pool and a bar. The nearest airportis Agadir–Al Massira Airport, 38 km from the accommodation.",
         "image": "pictures/maroc/amouage.jpeg",
         "rate": 4.3,
+        "price" : "250$", 
         "country": "Morocco"
     },
     {
@@ -101,6 +113,7 @@
         "Description": "Set in Asni in the Marrakech-Tensift-Haouz Region, 43 km from Marrakech, Kasbah Tamadot boasts a spa centre and hot tub. Guests can enjoy the on-site bar. Free private parking is available on site. For your comfort, you will find bath robes, slippers and free toiletries. Kasbah Tamadot features free WiFi throughout the property. ",
         "image": "pictures/maroc/kasbah.jpg",
         "rate": 4.8,
+        "price" : "620$", 
         "country": "Morocco"
     },
     {
@@ -109,6 +122,7 @@
         "Description": "Feel the full strength of the city’s pulse as you enter the doors of the Royal Mansour. Traditional architecture, lush gardens and outstandingly sophisticated riads await you. The design of this luxury hotel in Marrakesh incorporates the elements of an authentic medina, where guests can stroll around and discover sensual delights. The rooms and suites have been replaced by luxurious riads, and the corridors by winding alleyways. The Royal Mansour Marrakech is the only hotel establishment in the world to offer this unique concept.",
         "image": "pictures/maroc/royal_mansour_marrakech.jpg",
         "rate": 5,
+        "price" : "850$", 
         "country": "Morocco"
     },
     {
@@ -117,14 +131,16 @@
         "Description": "Featuring views of the Atlas Mountains, this posh luxury hotel is off the N9 highway and 12 km from food stalls at Jemaa elFnaa, a bustling square in the medina.Elegant rooms have Nespresso machines,minibars, flatscreens and WiFi, plus sitting areas, and balconies with mountain views. Villas add private pools and gardens. Suites provide separate living rooms.",
         "image": "pictures/maroc/The-Oberoi-Marrakech.png",
         "rate": 4.6,
+        "price" : "580$", 
         "country": "Morocco"
     },
     {
-        "name": "SOFITEL MARRAKECH ",
+        "name": "SOFITEL MARRAKECH",
         "address": " Quartier De, Rue Haroun Errachid, Marrakech 40000, Morocco",
         "Description": "Surrounded by a splendid garden and fountains, Sofitel Marrakech is a premier Marrakech Morocco hotel. Its 346 Marrakech hotel rooms offer terraces or balconies with views of the mountains, swimming pool, or gardens. Guests at this luxury hotel in Marrakech, Morocco, will enjoy restaurants serving local and international cuisine, 3 bars, a nearby nightclub, a poolside snack bar, 3 bars, an indoor swimming pool, a fitness centre with a Jacuzzi, and a Turkish steam bath and gym.",
         "image": "pictures/maroc/sofitel-marrakech.jpg",
         "rate": 4.7,
+        "price" : "", 
         "country": "Morocco"
     },
     {
@@ -133,6 +149,7 @@
         "Description": "Hotel Mansour Eddahbi Marrakech offers an authentic welcome to visitors of the captivating Red City. Just a few minutes away from the bustling Medina in the central L'Hivernage district, our 5-star hotel features 503 rooms, four restaurants and one bar, Ô de Rose spa and wellbeing centre that includes a yoga studio, vibrant gardens and three magnificent swimming pools, including a luxurious heated facility, and a kids club.",
         "image": "pictures/maroc/movenpick.jpg",
         "rate": 4.4,
+        "price" : "380$", 
         "country": "Morocco"
     },
     {
@@ -141,6 +158,7 @@
         "Description": "This luxurious hotel is a 2-minute walk from the famous Jamaâ El Fna Square. It features a Carita Spa, a hot tub and the outdoor swimming pool is surrounded by palm trees.The air-conditioned guest rooms are spacious and open onto a patio. Each room is equipped with a minibar and a TV. Some rooms feature an elegant living room. All rooms at Les Jardins De La Koutoubia have a private bathroom with amenities.Indian specialities are served in Les Jardins de Bala restaurant. Guests can enjoy a drink in the piano bar or on the rooftop terrace.",
         "image": "pictures/maroc/koutoubia.jpg",
         "rate": 4.5,
+        "price" : "320$", 
         "country": "Morocco"
     },
     {
@@ -149,6 +167,7 @@
         "Description": "Four Seasons is a 3-minute drive from the Menara Gardens. It offers an outdoor swimming pool surrounded by palm trees, sunbeds and a rooftop terrace. A wellness centre and free Wi-Fi are available.Rooms and suites have a balcony with views of the garden, the pool or the mountains. They offer air conditioning, a flat-screen TV and a private bathroom with free toiletries, a bathrobe and a bath or shower.",
         "image": "pictures/maroc/four-season.jpg",
         "rate": 4.6,
+        "price" : "520$", 
         "country": "Morocco"
     },
     {
@@ -157,6 +176,7 @@
         "Description": "La Mamounia, a symbol of traditional Moroccan hospitality, is located in the heart of the imperial city, nestled in a 17 acre park, 5 minutes walk from the Jemaa El Fna square, La Mamounia will remain the place for worldwide celebrities. DESCRIPTION The Moroccan legendary palace has been redesigned by an internationally acclaimed designer, Jacques Garcia, combining a true Moroccan style and ambiance with new technologies. With its luxurious decorations, fabulous gardens and its trendy 2500sq m SPA, la Mamounia guarantees the amazement of its guests.",
         "image": "pictures/maroc/hotel-mamounia-marrakech.jpg",
         "rate": 4.6,
+        "price" : "550$", 
         "country": "Morocco"
     },
     {
@@ -165,7 +185,8 @@
         "Description": " Discover all beauties of Antalya with the Urban Social concept offering a unique experience that appeals to all emotions. An unforgettable accommodation experience surrounded by city views is waiting for you at Akra offering an above-the standards concept that is developed with inspirations from the Mediterranean Sea. You will be delighted and feel special at all times in this world of privileges built on the pillars of quality, comfort and taste.",
         "image": "pictures/turkey/akra-antalya.jpg",
         "rate": 4.5,
-        "country": "turkey"
+        "price" : "360$", 
+        "country": "Turkey"
     },
     {
         "name": "Ramada Plaza",
@@ -173,7 +194,8 @@
         "Description": "Relax and rejuvenate on the scenic shores of the Mediterranean Sea at our Ramada Plaza Antalya hotel. Located near the city center, we are close to Antalya Expo Center and offer a perfect escape from the everyday. Our spacious guest rooms are designed with your comfort in mind, with thoughtful amenities and breathtaking views, all to enhance your stay",
         "image": "pictures/turkey/ramada-plaza.jfif",
         "rate": 4.2,
-        "country": "turkey"
+        "price" : "300$", 
+        "country": "Turkey"
     },
     {
         "name": "DoubleTree by Hilton Antalya",
@@ -181,7 +203,8 @@
         "Description": "Our hotel is at the heart of Antalya, within five minutes of MarkAntalya shopping center. We're less than two kilometers from the picturesque streets of Kaleiçi, the city's old town, and within 20 minutes of Konyaalti Beachfront. Perks include our indoor and rooftop pools, a fitness center and spa, and a warm DoubleTree cookie upon arrival. ",
         "image": "pictures/turkey/doubletree.jpg",
         "rate": 4.6,
-        "country": "turkey"
+        "price" : "520$", 
+        "country": "Turkey"
     },
     {
         "name": "Four Points by Sheraton Izmir",
@@ -189,7 +212,8 @@
         "Description": "Discover popular luxury hotels in destinations around the globe that offer unparalleled service and amenities.",
         "image": "pictures/turkey/four-points-by-sheraton.jpg",
         "rate": 4.5,
-        "country": "turkey"
+        "price" : "480$", 
+        "country": "Turkey"
     },
     {
         "name": "Costa Sariyaz Hotel",
@@ -197,7 +221,8 @@
         "Description": "Sariyaz Hotel is a new property, which will offer modern stylish accommodation in a quiet part of Bodrum town. The relaxed atmosphere will make it ideal for those seeking relaxation during the day and resort centre is only a few minutes walk away for those who are tempted by Bodrum by night.",
         "image": "pictures/turkey/costa-sariyaz.jpg",
         "rate": 4.4,
-        "country": "turkey"
+        "price" : "390$", 
+        "country": "Turkey"
     },
     {
         "name": "Wyndham Grand Istanbul Levent",
@@ -205,7 +230,8 @@
         "Description": " Whether traveling for business or leisure, Divan has been bringing people together since 1956. Experience comfort and luxury in 4 countries with Divan hotels, an exclusive hub for travelers like you.",
         "image": "pictures/turkey/wyndham-istanbul.jpg",
         "rate": 4.5,
-        "country": "turkey"
+        "price" : "420$", 
+        "country": "Turkey"
     },
     {
         "name": "Divan Bursa",
@@ -213,7 +239,8 @@
         "Description": " Divan Adana is one of the most exclusive hotels among Istanbul hotels with its tastefully furnished hotel rooms, its warm and attentive service understanding that carries all the positive characteristics of the West and the East, and its heritage for more than half a century.",
         "image": "pictures/turkey/bursa.jpeg",
         "rate": 4.4,
-        "country": "turkey"
+        "price" : "400$", 
+        "country": "Turkey"
     },
     {
         "name": "Alesta Yacht Hotel",
@@ -221,7 +248,8 @@
         "Description": "is located where the Mediterranean and Aegean seas merge and is situated with views of the bay, marina and local town. Our hotel is just 5 minutes walk from Fethiye Center. The facilities are ideal for all guests with exceptional amenities in line with your personel wishes.",
         "image": "pictures/turkey/alestayacht.jpg",
         "rate": 4.6,
-        "country": "turkey"
+        "price" : "460$", 
+        "country": "Turkey"
     },
     {
         "name": "Artemis Cave Suites",
@@ -229,7 +257,8 @@
         "Description": "We welcome you to our luxury cave hotel in the heart of Goreme, Cappadocia.Relax in one of our 24 uniquely designed cave rooms or 4 stone rooms, ranging from cave rooms, deluxe cave or cave suites. Enjoy the magnificent views over the valleys and the balloons at sunrise from our terraces or indulge in our traditional Turkish Bath. Whatever you decide to do, we can guarantee your stay will be unforgettable.",
         "image": "pictures/turkey/artemis.jpg",
         "rate": 5,
-        "country": "turkey"
+        "price" : "550$", 
+        "country": "Turkey"
     },
     {
         "name": "Olive Garden Kabak",
@@ -237,7 +266,8 @@
         "Description": "The Olive Garden - Kabak is the perfect place for your next vacation. With breathtaking panoramic views of Kabak bay nestled in lush and colorful vegetation, The Olive Garden - Kabak's peaceful and quiet atmosphere will inspire you relax and enjoy nature's majesty.",
         "image": "pictures/turkey/olive-garden.jpg",
         "rate": 4.6,
-        "country": "turkey"
+        "price" : "490$", 
+        "country": "Turkey"
     },
     {
         "name": "hotel Grande Bretagne",
@@ -245,6 +275,7 @@
         "Description": "The Hotel Grande Bretagne, a historic landmark situated in the very heart of Athens and established in 1874, offers breathtaking views of the famed Acropolis and Parthenon from its rooftop. This palatial hotel, featuring opulent artwork and precious antiques, has hosted esteemed personalities and heads of states who have experienced the renowned Royal Suite as well as the exclusive butler service.",
         "image": "pictures/greece/grande-bretagne.jpg",
         "rate": 4.8,
+        "price" : "500$", 
         "country": "Greece"
     },
     {
@@ -253,6 +284,7 @@
         "Description": "The Ikos Oceania hotel in Nea Moudania welcomes you in a private bay and offers rooms with sea and mountain views. Guests enjoy free drinks, sun loungers and umbrellas on the beach, as well as access to a lagoon-style infinity pool.",
         "image": "pictures/greece/ikos-oceania.jpg",
         "rate": 4.5,
+        "price" : "550$", 
         "country": "Greece"
     },
     {
@@ -261,14 +293,16 @@
         "Description": " the 5-star King George, a Luxury Collection Hotel represents the absolute essence of a fascinating boutique hotel. Perfectly situated for captivating experiences, a truly inspiring and gracious venue, King George is located within walking distance from the wonders of Athens. The Acropolis, Agora, Plaka and Thission are nearby, so too are upmarket boutiques, world-renowned museums, and the city's vibrant business district. With 102 rooms and suites, a Penthouse Suite with private outdoor pool overlooking the fabled Acropolis, Tudor Hall Restaurant and incomparable views of the city's landmarks, King George finds its best expression in the outstanding personalized service.",
         "image": "pictures/greece/king-george.jpg",
         "rate": 4.2,
+        "price" : "530$", 
         "country": "Greece"
     },
     {
         "name": "Electra Metropolis Hotel",
         "address": "Mitropoleos 15, Athens 10557 Greece",
         "Description": " Inviting and with a luxury lifestyle approach, Electra Metropolis, located in the heart of Athens, is the place to stay whether you are here for business or pleasure. Modern with a classical twist with 216 modernly equipped rooms and suites and a unique sky-light Atrium at the center of the hotel, Electra Metropolis will offer you a personalized stay with a pure Greek hospitality approach.",
-        "image": "",
+        "image": "pictures/greece/electra.jpg",
         "rate": 4.2,
+        "price" : "480$", 
         "country": "Greece"
     },
     {
@@ -277,6 +311,7 @@
         "Description": " Make yourself at home in one of the 7 air-conditioned rooms featuring minibars and flat-screen televisions. Complimentary wireless Internet access keeps you connected, and satellite programming is available for your entertainment. Private bathrooms with showers feature complimentary toiletries and hair dryers. Conveniences include safes, and housekeeping is provided daily.Enjoy recreation amenities such as an outdoor pool or take in the view from a rooftop terrace. Additional features at this hotel include complimentary wireless Internet access and concierge services.",
         "image": "pictures/greece/thireas.jpg",
         "rate": 4.1,
+        "price" : "470$", 
         "country": "Greece"
     },
     {
@@ -285,6 +320,7 @@
         "Description": "The Ilioperato Hotel overlooks Santorini's stunning caldera, making it a great place to admire magnificent sunsets. Its privileged location will allow you to enjoy the peace and beauty of this magical island, while being just 1.5 km from the crowds and nightclubs of Fira.",
         "image": "pictures/greece/Ilioperato.jpg",
         "rate": 3.9,
+        "price" : "390$", 
         "country": "Greece"
     },
     {
@@ -293,6 +329,7 @@
         "Description": "Celebrating the finer pleasures in life, Mystique is a sensual experience on the sun-drenched isle of Santorini. Situated on Oia’s famous cliffs, the stylish Mystique features dazzling views of clear blue crystalline waters, the volcano, and the Aegean Caldera. Surrounded by some of the world’s most beautiful scenery, the resort’s island-style design pays homage to nature in a climate of unabashed luxury. The 35 suites and villas provide a sensorial experience in surroundings of understated elegance, with lovingly handcrafted from wood, local stone, and glass with enticing patterns carved into the walls. Antique textiles and plump, luxurious towels will wrap you in their warmth and comfort.",
         "image": "pictures/greece/mystique.jpg",
         "rate": 4.8,
+        "price" : "620$", 
         "country": "Greece"
     },
     {
@@ -301,6 +338,7 @@
         "Description": "Amanzoe – Greece’s most exclusive hotel – is a hilltop property, laying amongst centuries old olive groves. Located within easy reach of a wealth of archaeological sites and the cosmopolitan island of Spetses, the resort boasts panoramic views of the Peloponnese countryside, the glittering tranquil sea, the neighboring vineyards, and the awe-inspiring mountains. Designed by quintessential Aman architect Ed Tuttle, this exclusive haven of unsurpassed beauty has quickly become the Mediterranean playground of those in the know. Classically inspired yet sleekly contemporary, Amanzoe’s Pavilions and Villas open to expansive private terraces, creating a seamless extension of the airy interiors and an unrivaled sense of space and seclusion. A stone’s throw away, the Amanzoe beach club comes with two lap pools and two children’s pools and provides fun and games in total privacy by the water.",
         "image": "pictures/greece/amanzoe.jpg",
         "rate": 5,
+        "price" : "750$", 
         "country": "Greece"
     },
     {
@@ -309,6 +347,7 @@
         "Description": "Standing majestically on a private sandy beach of a secluded bay, on the island of Zakynthos, just west of Greece’s mainland and famous for its turquoise waters and Venetian villages, Porto Zante Villas & Spa is a boutique luxury hotel comprising world class luxury villas on the beach, all with private pools, exquisite Greek & Mediterranean cuisine at the Club House restaurant, a luxury Asian fusion restaurant offering delicious fresh Sushi, Sashimi and Thai options, a fabulous waterfront spa, 24-hour five-star hotel services, and an array of unique activities & experiences for families and couples alike. The luxury villas at Porto Zante are decorated and furnished with selected pieces of Armani Casa & Gervasoni, paintings of prominent Greek artists and are equipped with some of the best exclusive amenities including Christofle Paris cutlery & glasses, Bernardaud design porcelain & BVLGARI guest amenities.",
         "image": "pictures/greece/portozante.jpg",
         "rate": 4.8,
+        "price" : "700$", 
         "country": "Greece"
     },
     {
@@ -317,6 +356,7 @@
         "Description": "The first fully-fledged five-star hotel in Greece, Elounda Beach Hotel & Villas put the the sleepy fishing village of Elounda in northeast Crete on the map in 1971. Since then half a dozen pretenders have squeezed into Mirabello bay, jostling for a sea-view slot, but Elounda Beach will always have the prime position. The property includes several mini-resort-like clusters, like the Yachting Club, whose state-of-the-art bungalows have electric sliding glass doors and retractable television screens. Guests can enjoy the peace and quiet of two private beaches, a treatment at the acclaimed spa Espace Vitalité Chenot, or a delicious meal at one of nine world-class restaurants.",
         "image": "pictures/greece/elounda.jpg",
         "rate": 4.8,
+        "price" : "690$", 
         "country": "Greece"
     },
     {
@@ -325,6 +365,7 @@
         "Description": " A former 19th century palace with a prime location in the Madrid of the Austrias. Book now. Join MeliáRewards for exclusive benefits and offers: more value, flexibility and time. Safety Standards. Finest Luxury. Official Website. Superior Comfort. MeliáRewards Points.",
         "image": "pictures/spain/spain.jpg",
         "rate": 4.6,
+        "price" : "720$", 
         "country": "Spain"
     },
     {
@@ -333,6 +374,7 @@
         "Description": "The Rock Suites & Spa is located in the hillside village of Congosto in Castilla y León's beautiful Bierzo region. This hotel has a large terrace offering spectacular views over the Bárcena Reservoir and the surrounding countryside.Featuring mountain views, all rooms include a kitchen and a living room. Each one has a private bathroom with free toiletries.The hotel has a spa and a massage room. Other facilities offered at the property include a meeting room, tour desk and luggage storage. The property offers free parking. On site at the hotel you can also find an old sanctuary.An array of activities can be enjoyed on site or in the surroundings, including golfing, cycling and horse riding. You can also enjoy water sports on the reservoir.",
         "image": "pictures/spain/rock-suites.jpg",
         "rate": 4.5,
+        "price" : "680$", 
         "country": "Spain"
     },
     {
@@ -341,6 +383,7 @@
         "Description": " This 5-star hotel occupies a 16th-Century palace in the heart of the ancient city of Córdoba. It has an outdoor pool set in pretty gardens.The elegant rooms of the Hospes Palacio del Bailio fuse past and present. Some include original wall paintings, and all have flat-screen TV and free Wi-Fi. Rich materials such leather and velvet are used throughout the hotel. The bathrooms are particularly luxurious.The Palacio del Bailio offers plenty of space to relax. You can unwind in the flower garden or on the sun terrace surrounded by orange trees. Alternatively, you can enjoy a range of treatments at the hotel's exclusive Bodyna Spa.",
         "image": "pictures/spain/Palacio-del-Bailio-Cordoba.jpg",
         "rate": 4.7,
+        "price" : "650$", 
         "country": "Spain"
     },
     {
@@ -349,6 +392,7 @@
         "Description": " Hotel Hospes Maricel y Spa is an impressive hotel located just 10 minutes’ drive from Palma de Mallorca. Featuring both modern, 16th and 17th-century architecture, it has an amazing seafront infinity pool and a well-equipped spa.The hotel is made up of the original mansion and a modern annexe building with contemporary décor and exposed stone walls. You can access the property's private natural caves, some of which have been converted into seafront massage rooms.The Bodyna Spa at Hospes Maricel y Spa includes indoor and outdoor pools, a hot tub, sauna and Turkish bath. There is also a terrace, garden, a gym, and massage services are available. ",
         "image": "pictures/spain/hotel-hospes-maricel.jpg",
         "rate": 4.6,
+        "price" : "670$", 
         "country": "Spain"
     },
     {
@@ -357,6 +401,7 @@
         "Description": "The Hotel Hospes Américo is in Alicante, in the historic center of the city and near the beach.It has 82 rooms in total, distributed in an old and elegant building from the 19th century. Each of the rooms features stylish décor, a flat-screen TV and a private bathroom.Within its facilities the Fondillón restaurant works, where you can taste dishes and specialties of Mediterranean and international cuisine for lunch and dinner.The accommodation has a gym, as well as an outdoor and indoor pool. It also has a Spa area where you can enjoy massages and different relaxing and beauty treatments.It is just a few minutes walk from Postiguet Beach and just a few meters from the Cathedral and the Alicante Town Hall. Nearby you will have the Explanada de España and the Principal theater.",
         "image": "pictures/spain/hotel-hospes-amérigo.jpg",
         "rate": 4.5,
+        "price" : "630$", 
         "country": "Spain"
     },
     {
@@ -365,6 +410,7 @@
         "Description": " Located in Valencia City Centre neighborhood, Hotel Hospes Palau de la Mar is connected to a shopping center. The area's natural beauty can be seen at Malvarrosa Beach and Gulliver Park, while City of Arts and Sciences and Oceanografic Aquarium are popular area attractions. Check out an event or a game at Mestalla Stadium, and consider making time for Bioparc Valencia Zoo, a top attraction not to be missed. Spend some time exploring the area's activities, including segway rentals/tours. Guests love the hotel's central location.",
         "image": "pictures/spain/hospes-palau-de-la-mar.jpg",
         "rate": 4.5,
+        "price" : "600$", 
         "country": "Spain"
     },
     {
@@ -373,6 +419,7 @@
         "Description": "Located in Granada's Central District neighborhood, Hotel Hospes Palacio de Los Patos is in the city center. Alhambra and Granada Cathedral are notable landmarks, and the area's natural beauty can be seen at Mirador de San Nicolas and Generalife. Looking to enjoy an event or a game while in town? See what's happening at Plaza de Toros or Estadio Nuevo los Carmenes. Spend some time exploring the area's activities, including skiing. Guests appreciate the hotel's location for the sightseeing.",
         "image": "pictures/spain/patos.jpg",
         "rate": 4.5,
+        "price" : "620$", 
         "country": "Spain"
     },
     {
@@ -381,6 +428,7 @@
         "Description": " Head to the desert for stillness, adventure and breath-taking beauty. Anantara Sahara Tozeur Resort Villas is your luxurious gateway to the majesty of the Sahara. Wake up to desert sunrises from the privacy of your pool villa at one of the best Tunisia hotels. Drive through the dramatic Atlas Mountains to the abandoned villages of Chebika, Tamerza and Mides. Return to the resort for poolside bliss, hammam spa rituals, and dining under the stars in Berber style.",
         "image": "pictures/spain/sanEsteban.jpg",
         "rate": 4.6,
+        "price" : "690$", 
         "country": "Spain"
     },
     {
@@ -389,6 +437,7 @@
         "Description": " Hard Rock Hotel Ibiza is located right on the beachfront in Playa d'en Bossa. This modern hotel has a large open-air stage hosting prestigious weekly concerts. Free WiFi is available throughout the property.This large hotel has 2 outdoor pools and a spa with a hot tub and sauna, as well as a gym. There is also an exclusive private beach club with beach bar next to the hotel, and a range of chill-out areas.Hard Rock Ibiza is decorated with a range of music memorabilia. The stylish, air-conditioned rooms feature a flat-screen TV, a minibar and a private bathroom with a hairdryer, bathrobe and slippers. The windows also have blackout curtains.",
         "image": "pictures/spain/hardrock.jpg",
         "rate": 5,
+        "price" : "870$", 
         "country": "Spain"
     },
     {
@@ -397,6 +446,7 @@
         "Description": "This beachfront holiday hotel is set on the golden sands of Playa d’en Bossa beach – the perfect setting for a family holiday in the sun.The Grand Palladium White Island Resort & Spa - All Inclusive is distributed around it huge lagoon swimming pool. Within the typical Mediterranean-style buildings you will find facilities such as a large bar and a buffet restaurant serving a range of delicious dishes.In the evenings you can choose to enjoy the entertainment provided on site or head to Ibiza town,5 km away, for the lively nightlife. In the surrounding area you will also find a wide variety of shopping and leisure, such as a popular water park.",
         "image": "pictures/spain/grand-palladium.jfif",
         "rate": 4.7,
+        "price" : "820$", 
         "country": "Spain"
     }
 ]
