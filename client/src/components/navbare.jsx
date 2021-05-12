@@ -8,7 +8,7 @@ function  Navbare () {
             <nav className="nav-links">  
                  <Link to="/signup">SingUp</Link> 
                  <Link to="/login">Login</Link> 
-                 <Link to="/coutries">Countries</Link> 
+                 <Link to="/countries">Countries</Link> 
                  <Link to="/favoritelist">favoriteList</Link> 
                 
             </nav>

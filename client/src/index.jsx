@@ -1,6 +1,5 @@
-import React, { useState , useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import ReactDOM from "react-dom";
-import {BrowserRouter as Router,Switch, Route , Link } from 'react-router-dom'
 import Navbare from "./components/navbare.jsx"
 // import Home from './components/Home.jsx'
 // import About from './components/About.jsx'
@@ -9,30 +8,55 @@ import HotelDetails from './components/HotelDetails.jsx'
 import data from '../../data.json'
 import SignUp from './components/SignUp.jsx'
 import Login from './components/Login.jsx'
+import Countries from './components/Countries.jsx'
+import Greece from './components/Countries/Greece.jsx'
+import Spain from './components/Countries/Spain.jsx'
+import Morocco from './components/Countries/Morocco.jsx'
+import Turkey from './components/Countries/Turkey.jsx'
+import Tunisia from './components/Countries/Tunisia.jsx'
+import CountiresCard from './components/Countries/CountiresCard.jsx'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
-function  App () {
-    const [hotels ,setHotels] = useState([]); 
 
-    useEffect(()=>{ 
+function App() {
+    const [hotels, setHotels] = useState([]);
+    useEffect(() => {
         setHotels(data)
     })
 
-    return ( 
-       <Router>
-             <Navbare />
-             <Switch>
-             <Route exact path ="/" component={ () => ( <HotelDetails hotels={hotels}/>)} />
-             <Route exact path='/login' component={Login} />
-             <Route exact path='/signup' component={SignUp}  />
-             </Switch>
-         </Router>
-        // <div > 
-        //   <Navbare/>
-        //   <HotelDetails hotels={data} />
-        //  </div>
+    return (
+        <Router>
+            <Navbare />
+            {/* <Countries />  */}
+            <Switch>
+                <Route exact path="/" component={() => (<HotelDetails hotels={hotels} />)} />
+                <Route exact path='/login' component={Login} />
+                <Route exact path='/signup' component={SignUp} />
+                <Route exact path='/countries' component={Countries} />
+                <Route exact path='/countries/greece' component={() => (<Greece hotels={hotels} />)} />
+                <Route exact path='/countries/morocco' component={() => (<Morocco hotels={hotels} />)} />
+                <Route exact path='/countries/tunisia' component={() => (<Tunisia hotels={hotels} />)} />
+                <Route exact path='/countries/turkey' component={() => (<Turkey hotels={hotels} />)} />
+                <Route exact path='/countries/spain' component={() => (<Spain hotels={hotels} />)} />
+                <Route exact path='/countries/greece/hotels' component={() => (<CountiresCard hotels={hotels} />)} />
+
+            </Switch>
+        </Router>
+
     )
 
 }
+
+ReactDOM.render(<App />, document.getElementById("app"))
+
+
+
+
+
+
+
+
+
 
 // class App extends React.Component {
 //     constructor(props) {
@@ -82,7 +106,6 @@ function  App () {
 //     }
 // }
 
-ReactDOM.render(<App />, document.getElementById("app"))
 
 // // renderInner() {
 // //     let { display } = this.state;

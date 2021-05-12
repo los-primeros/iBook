@@ -8,7 +8,7 @@ class SignUp extends React.Component {
         }
     }
     submitSignUp(event) {
-
+        
     }
 
     render() {
