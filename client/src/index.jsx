@@ -1,31 +1,33 @@
-import React, { useState , useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import ReactDOM from "react-dom";
-import {BrowserRouter as Router,Switch, Route , Link } from 'react-router-dom'
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
 import Navbare from "./components/navbare.jsx"
-// import Home from './components/Home.jsx'
-// import About from './components/About.jsx'
-// import HotelCard from './components/HotelCard.jsx'
+import Home from './components/Home.jsx'
+import About from './components/About.jsx'
+import HotelCard from './components/HotelCard.jsx'
 import HotelDetails from './components/HotelDetails.jsx'
 import data from '../../data.json'
 import SignUp from './components/SignUp.jsx'
 import Login from './components/Login.jsx'
 
-function  App () {
-    const [hotels ,setHotels] = useState([]); 
 
-    useEffect(()=>{ 
+
+function App() {
+    const [hotels, setHotels] = useState([]);
+
+    useEffect(() => {
         setHotels(data)
     })
 
-    return ( 
-       <Router>
-             <Navbare />
-             <Switch>
-             <Route exact path ="/" component={ () => ( <HotelDetails hotels={hotels}/>)} />
-             <Route exact path='/login' component={Login} />
-             <Route exact path='/signup' component={SignUp}  />
-             </Switch>
-         </Router>
+    return (
+        <Router>
+            <Navbare />
+            <Switch>
+                <Route exact path="/" component={() => (<HotelDetails hotels={hotels} />)} />
+                <Route exact path='/login' component={Login} />
+                <Route exact path='/signup' component={SignUp} />
+            </Switch>
+        </Router>
         // <div > 
         //   <Navbare/>
         //   <HotelDetails hotels={data} />

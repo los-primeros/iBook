@@ -13,15 +13,16 @@ class Login extends React.Component {
 
     render() {
         return (
-            <div className="inner-container">
-                <div className="header">
-                    Login
-            </div>
+            <div className="inner-Container" id="login">
+                <div className="header"> Login </div>
                 <div className="box">
-
                     <div className="input-group">
-                        <label htmlFor="email">Email</label>
-                        <input type="text" name="email" className="login-input" placeholder="Email" />
+                        <label htmlFor="username">Username</label>
+                        <input
+                            type="text"
+                            name="Username"
+                            className="login-input"
+                            placeholder="Username" />
                     </div>
 
                     <div className="input-group">
@@ -32,19 +33,18 @@ class Login extends React.Component {
                             className="login-input"
                             placeholder="Password" />
                     </div>
-
                     <button
                         type="button"
-                        className="login-btn"
+                        className="btn"
                         onClick={this
                             .submitLogin
                             .bind(this)}>Login</button>
                 </div>
             </div>
-
-
         )
     }
 }
 
 export default Login;
+
+
