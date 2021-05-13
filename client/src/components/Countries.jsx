@@ -1,20 +1,22 @@
 import React from "React" ; 
-import { Link } from 'react-router-dom'
-import data from '../../../data.json'
+import { Link } from 'react-router-dom' 
+import CountriesDetail from "./CountriesDetail.jsx" ;
+import { useHistory, useParams } from 'react-router-dom'
 
 
-
-function Countries () {
+function Countries (props ) {
+     const {id} = useParams()
+     console.log(id)
      return (
-             <div> 
-             <nav className="nav-bar">
-                  <Link to='/countries/greece'>Greece</Link>
-                  <Link to='/countries/morocco'>Morocco</Link>
-                  <Link to='/countries/tunisia'>Tunisia</Link>
-                  <Link to='/countries/turkey'>Turkey</Link>
-                  <Link to='/countries/spain'>Spain</Link>
-              </nav>
-            </div>
+             <div>
+                  <div className="leftlist">
+                        { props.hotels.filter(hotel => hotel.country === id ).map((filtredHotel,index) => (
+                                        <CountriesDetail  hotel={filtredHotel} key={index}  />
+                                ))    
+                        }
+                 </div>     
+             </div>
+           
         )
     
 }

@@ -15,8 +15,8 @@ app.use(morgan("dev"));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static(__dirname + "/client/dist"));
 
-app.post("/signup", controllers.add)
-
+app.get("/api/signup", controllers.getAll)
+app.post("/api/signup", controllers.add)
 
 // app.get('/', (req, res) => {
 //   res.render('index')
