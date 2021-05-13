@@ -12,7 +12,7 @@ class SignUp extends React.Component {
 
     } 
 
-    // $axios.post('/signup', {
+    // $axios.post('/api/signup', {
     //     firstName: '',
     //     lastName: '',
     //     age : '',
