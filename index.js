@@ -6,6 +6,7 @@ const bodyParser = require("body-parser");
 const path = require("path");
 const morgan = require("morgan");
 const controllers = require("./controllers/index.js");
+const controller = require("./controllers/login.js");
 
 
 const PORT = 4023;
@@ -15,8 +16,11 @@ app.use(morgan("dev"));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static(__dirname + "/client/dist"));
 
-app.post("/signup", controllers.add)
+app.get("/api/signup", controllers.getAll)
+app.post("/api/signup", controllers.add)
 
+
+app.post("/api/login", controller.add)
 
 // app.get('/', (req, res) => {
 //   res.render('index')

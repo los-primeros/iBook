@@ -1,54 +1,40 @@
 import React from "React";
+import { Card, CardGroup, ListGroup, ListGroupItem } from 'react-bootstrap';
+
 
 var HotelCard = (props) => (
 
-  
-    <div>
-      <div className="card">
-        <img src={props.hotel.image} />
-
-            <h1 className="name">{props.hotel.name}</h1>
-            <br />
-            <h4 className="adress">{props.hotel.address}</h4>
-            <p className="text" >{props.hotel.Description}</p>
-        
-      </div>
-    </div>
- 
+  <div>
+    <CardGroup>
+      <Card style={{ width: '8rem' }}>
+        <Card.Img variant="top" src={props.hotel.image} />
+        <Card.Body>
+          <Card.Title>{props.hotel.name}</Card.Title>
+          <Card.Text>
+            {props.hotel.Description}
+          </Card.Text>
+        </Card.Body>
+        <ListGroup className="list-group-flush">
+          <ListGroupItem>{props.hotel.address}</ListGroupItem>
+          <ListGroupItem>{props.hotel.price}</ListGroupItem>
+        </ListGroup>
+      </Card>
+    </CardGroup>
+  </div>
 )
 
 export default HotelCard
 
-
-
-
-{/*try1
-   <div className="grid">
-      <div className="grid-item">
-        <img className="card-img" src={props.hotel.image} />
-        <div className="card-content">
-          <h4 className="card-header">
-            <b>{props.hotel.name}</b>
-            <br />
-            <span className="card-ad">{props.hotel.address}</span>
-          </h4>
-          <p className="card-text">{props.hotel.Description}</p>
-        </div>
+{/* {console.log(props.hotel.image)} */ }
+{/* <div className="card">
+      <img src={props.hotel.image} />
+      <div className="card-container">
+        <h4>
+          <b>{props.hotel.name}</b>
+          <br />
+          <span>{props.hotel.address}</span>
+        </h4>
+        <p>{props.hotel.Description}</p>
+        <p>{props.hotel.price}</p>
       </div>
     </div> */}
-
-
-
-{/* <div>
-<div className="card">
-  <img src={props.hotel.image} />
-  <div className="card-container">
-    <h4>
-      <b>{props.hotel.name}</b>
-      <br />
-      <span>{props.hotel.address}</span>
-    </h4>
-    <p>{props.hotel.Description}</p>
-  </div>
-</div>
-</div> */}

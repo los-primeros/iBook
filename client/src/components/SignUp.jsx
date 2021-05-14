@@ -1,4 +1,5 @@
-import React from "React"
+import React from "react"
+import axios from "axios"; 
 
 class SignUp extends React.Component {
     constructor(props) {
@@ -9,7 +10,16 @@ class SignUp extends React.Component {
     }
     submitSignUp(event) {
 
-    }
+    } 
+
+    // $axios.post('/api/signup', {
+    //     firstName: '',
+    //     lastName: '',
+    //     age : '',
+    //     email: '',
+    //     password : '',
+    //   });
+   
 
     render() {
         return (
