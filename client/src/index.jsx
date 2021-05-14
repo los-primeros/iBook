@@ -1,15 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import ReactDOM from "react-dom";
 import Navbare from "./components/navbare.jsx"
-// import Home from './components/Home.jsx'
-// import About from './components/About.jsx'
-// import HotelCard from './components/HotelCard.jsx'
+
+import HotelCard from './components/HotelCard.jsx'
 import HotelDetails from './components/HotelDetails.jsx'
 import data from '../../data.json'
 import SignUp from './components/SignUp.jsx'
 import Login from './components/Login.jsx'
 import Countries from './components/Countries.jsx'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+
 
 
 
@@ -28,6 +28,7 @@ function App() {
         <div className="background"> 
           <Router>
             <Navbare country={countries} />
+ 
             {/* <Countries />  */}
             <Switch>
                 <Route exact path="/" component={() => (<HotelDetails hotels={hotels} />)} />
@@ -43,10 +44,4 @@ function App() {
 }
 
 ReactDOM.render(<App />, document.getElementById("app"))
-
-
-
-
-
-
 

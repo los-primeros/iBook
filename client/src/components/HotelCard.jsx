@@ -1,33 +1,32 @@
-import React from "React" ; 
-import { Card, CardGroup , ListGroup , ListGroupItem } from 'react-bootstrap';
+import React from "React";
+import { Card, CardGroup, ListGroup, ListGroupItem } from 'react-bootstrap';
 
 
+var HotelCard = (props) => (
 
-var HotelCard=(props)=>(
-  
-    <div>
-      <CardGroup>
-      <Card style={{ width: '18rem' }}>
+  <div>
+    <CardGroup>
+      <Card style={{ width: '8rem' }}>
         <Card.Img variant="top" src={props.hotel.image} />
         <Card.Body>
           <Card.Title>{props.hotel.name}</Card.Title>
           <Card.Text>
-          {props.hotel.Description}
-           </Card.Text>
-          </Card.Body>
-         <ListGroup className="list-group-flush">
+            {props.hotel.Description}
+          </Card.Text>
+        </Card.Body>
+        <ListGroup className="list-group-flush">
           <ListGroupItem>{props.hotel.address}</ListGroupItem>
           <ListGroupItem>{props.hotel.price}</ListGroupItem>
         </ListGroup>
-        </Card>
-        </CardGroup>
-   </div>
+      </Card>
+    </CardGroup>
+  </div>
 )
 
-export default HotelCard 
+export default HotelCard
 
-{/* {console.log(props.hotel.image)} */}
-     {/* <div className="card">
+{/* {console.log(props.hotel.image)} */ }
+{/* <div className="card">
       <img src={props.hotel.image} />
       <div className="card-container">
         <h4>
