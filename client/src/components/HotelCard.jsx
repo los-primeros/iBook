@@ -1,10 +1,12 @@
-import React from "React" ; 
+import React from "react" ; 
 import { Card, CardGroup , ListGroup , ListGroupItem } from 'react-bootstrap';
 
 
 
-var HotelCard=(props)=>(
-  
+var HotelCard=(props)=>{
+
+
+  return (
     <div>
       <CardGroup>
       <Card style={{ width: '18rem' }}>
@@ -24,6 +26,7 @@ var HotelCard=(props)=>(
    </div>
 )
 
+}
 export default HotelCard 
 
 {/* {console.log(props.hotel.image)} */}

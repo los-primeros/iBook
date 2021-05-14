@@ -1,20 +1,28 @@
-import React from "React" ; 
+import React , { useState } from "react" ; 
 import { Link } from 'react-router-dom' 
 import CountriesDetail from "./CountriesDetail.jsx" ;
 import { useHistory, useParams } from 'react-router-dom'
-
+import HotelCard from "./HotelCard.jsx" ;
 
 function Countries (props ) {
      const {id} = useParams()
-     console.log(id)
+     const {idname} = useParams() 
+//      console.log(idname)
+const [currentHotel, setCurrentHotel] = useState(null);
+
      return (
              <div>
                   <div className="leftlist">
                         { props.hotels.filter(hotel => hotel.country === id ).map((filtredHotel,index) => (
-                                        <CountriesDetail  hotel={filtredHotel} key={index}  />
+                                        <CountriesDetail handleClick={setCurrentHotel} hotel={filtredHotel} key={index}  />
                                 ))    
                         }
-                 </div>     
+                 </div>   
+                 <div>
+                 <div>{currentHotel ? <HotelCard hotel={currentHotel} /> : null}</div>
+                <button > Reservation </button>
+                <button > Add To Favorite List </button>
+                 </div>  
              </div>
            
         )

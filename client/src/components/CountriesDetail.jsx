@@ -1,14 +1,23 @@
-import React from "React" ; 
-import  {ListGroup , ListGroupItem } from 'react-bootstrap';
+import React from "react";
+import { ListGroup, ListGroupItem } from "react-bootstrap";
+import { Link } from "react-router-dom";
+import HotelCard from "./HotelCard.jsx";
 
-function CountriesDetail (props) {
-    
-    return ( 
+function CountriesDetail(props) {
+
+  return (
+    <div>
+      <ListGroup>
+        {/* <ListGroup.Item> <Link to={"/hotels/" +props.hotel._id}>{props.hotel.name}</Link> </ListGroup.Item> */}
+        <ListGroup.Item>
         
-        <ListGroup>
-             <ListGroup.Item>{props.hotel.name}</ListGroup.Item>
-        </ListGroup>
-    )
-    }
+          <div onClick={() => props.handleClick(props.hotel)}>
+            {props.hotel.name}
+          </div>
+        </ListGroup.Item>
+      </ListGroup>
+    </div>
+  );
+}
 
-export default CountriesDetail 
+export default CountriesDetail;

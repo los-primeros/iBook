@@ -1,4 +1,4 @@
-import React from "React" ; 
+import React from "react" ; 
 import HotelCard from "./HotelCard.jsx";
 
 var HotelDetails = (props) => {
