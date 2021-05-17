@@ -8,7 +8,8 @@ import data from '../../data.json'
 import SignUp from './components/SignUp.jsx'
 import Login from './components/Login.jsx'
 import Countries from './components/Countries.jsx'
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import HotelCard from './components/HotelCard.jsx'
+import { BrowserRouter as Router, Switch, Route , useRouteMatch } from 'react-router-dom'
 
 
 
@@ -20,21 +21,22 @@ function App() {
         setHotels(data)
     })
 
-
+    
+    
     const countries = new Set(hotels.map((hotel)=>hotel.country))
      console.log(countries)
+
 
     return (
         <div className="background"> 
           <Router>
             <Navbare country={countries} />
- 
-            {/* <Countries />  */}
             <Switch>
                 <Route exact path="/" component={() => (<HotelDetails hotels={hotels} />)} />
                 <Route exact path='/login' component={Login} />
                 <Route exact path='/signup' component={SignUp} />
-                <Route exact path='/countries/:id' component={() => (<Countries hotels={hotels} />)} />
+                <Route exact path="/countries/:id" component={() => (<Countries hotels={hotels} />)} />
+                <Route exact path="/hotels/:id" component={() => (<HotelCard />)} />
             </Switch>
             </Router>
         </div>

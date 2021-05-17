@@ -1,4 +1,4 @@
-import React from "React";
+import React from "react";
 import { Button, Form } from 'react-bootstrap';
 // import axios from "axios"; 
 
@@ -45,34 +45,5 @@ class Login extends React.Component {
 }
 
 export default Login;
-
-// <div className="inner-container">
-            //     <div className="header">
-            //         Login
-            // </div>
-            //     <div className="box">
-
-            //         <div className="input-group">
-            //             <label htmlFor="email">Email</label>
-            //             <input type="text" name="email" className="login-input" placeholder="Email" />
-            //         </div>
-
-            //         <div className="input-group">
-            //             <label htmlFor="password">Password</label>
-            //             <input
-            //                 type="password"
-            //                 name="password"
-            //                 className="login-input"
-            //                 placeholder="Password" />
-            //         </div>
-
-            //         <button
-            //             type="button"
-            //             className="login-btn"
-            //             onClick={this
-            //                 .submitLogin
-            //                 .bind(this)}>Login</button>
-            //     </div>
-            // </div>
 
 
