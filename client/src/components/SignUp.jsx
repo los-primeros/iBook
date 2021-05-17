@@ -24,10 +24,8 @@ class SignUp extends React.Component {
     render() {
         return (
 
-            <div className="inner-Container">
-                <div className="header">
-                    SignUp
-            </div>
+            <div className="inner-Container" id="sign">
+                <div className="header"> SignUp </div>
                 <div className="box">
                     <div className="input-group">
                         <label htmlFor="username">Firstname</label>
@@ -45,14 +43,6 @@ class SignUp extends React.Component {
                             className="login-input"
                             placeholder="Lastname" />
                     </div>
-                    <div className="input-group">
-                        <label htmlFor="username">Age</label>
-                        <input
-                            type="text"
-                            name="Age"
-                            className="login-input"
-                            placeholder="Age" />
-                    </div>
 
                     <div className="input-group">
                         <label htmlFor="email">Email</label>
@@ -69,7 +59,7 @@ class SignUp extends React.Component {
                     </div>
                     <button
                         type="button"
-                        className="log"
+                        className="btn"
                         onClick={this
                             .submitSignUp
                             .bind(this)}>Submit</button>

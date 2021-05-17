@@ -5,8 +5,12 @@ const db = require("./db/index.js");
 const bodyParser = require("body-parser");
 const path = require("path");
 const morgan = require("morgan");
+
+// todo: fix this
 var controllers = require("./controllers/usersignup");
 // var controllers = require("./controllers/userlogin");
+const controllers = require("./controllers/index.js");
+const controller = require("./controllers/login.js");
 
 
 const PORT = 4023;
@@ -22,6 +26,9 @@ app.use(express.static(__dirname + "/client/dist"));
 // })
 app.get("/api/signup", controllers.getAll)
 app.post("/api/signup", controllers.add)
+
+
+app.post("/api/login", controller.add)
 
 // app.get('/', (req, res) => {
 //   res.render('index')

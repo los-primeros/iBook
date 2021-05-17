@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import ReactDOM from "react-dom";
 import Navbare from "./components/navbare.jsx"
+
+import HotelCard from './components/HotelCard.jsx'
 import HotelDetails from './components/HotelDetails.jsx'
 import data from '../../data.json'
 import SignUp from './components/SignUp.jsx'
@@ -8,6 +10,7 @@ import Login from './components/Login.jsx'
 import Countries from './components/Countries.jsx'
 import HotelCard from './components/HotelCard.jsx'
 import { BrowserRouter as Router, Switch, Route , useRouteMatch } from 'react-router-dom'
+
 
 
 
@@ -43,10 +46,4 @@ function App() {
 }
 
 ReactDOM.render(<App />, document.getElementById("app"))
-
-
-
-
-
-
 
