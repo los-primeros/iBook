@@ -1,9 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import ReactDOM from "react-dom";
 import Navbare from "./components/navbare.jsx"
-// import Home from './components/Home.jsx'
-// import About from './components/About.jsx'
-// import HotelCard from './components/HotelCard.jsx'
 import HotelDetails from './components/HotelDetails.jsx'
 import data from '../../data.json'
 import SignUp from './components/SignUp.jsx'
@@ -21,11 +18,10 @@ function App() {
         setHotels(data)
     })
 
-
+    
+    
     const countries = new Set(hotels.map((hotel)=>hotel.country))
      console.log(countries)
-
-    //  let { path="http://localhost:4023/" } = useRouteMatch();
 
 
     return (
