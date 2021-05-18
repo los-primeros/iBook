@@ -37,3 +37,64 @@
 .leftlist {
     margin-right:1250px
 }
+/****************************************************login***************************************************************************************************************/
+
+
+
+.container_login {
+    padding: 110px;
+      background-image:url('https://i.redd.it/o8dlfk93azs31.jpg');
+
+  background-position:center;
+  background-size:cover;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #ffffff!important;
+    opacity: 1; /* Firefox */
+    font-size:18px!important;
+}
+.form-login {
+    background-color: rgba(0,0,0,0.55);
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    border-color:#d2d2d2;
+    border-width: 5px;
+    color:white;
+    box-shadow:0 1px 0 #cfcfcf;
+}
+.form-control{
+    background:transparent!important;
+    color:Black!important;
+    font-size: 18px!important;
+    border-radius: 10px;
+}
+h1{
+    color:white!important;
+}
+h4 { 
+ border:0 solid #fff; 
+ border-bottom-width:1px;
+ padding-bottom:10px;
+ text-align: center;
+}
+/* 
+.form-control {
+    
+} */
+.text-white{
+    color:white!important;
+}
+
+/***********************signup*****************************/
+
+.hotelcard {
+    align-items: center;
+    margin-left: 25%;
+    margin-right: 50% ;
+} 
+.mr-sm-2{
+    margin-right:5% ;
+}

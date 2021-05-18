@@ -1,6 +1,7 @@
 const User = require("../db/models/user.js") 
 
 exports.add = async (req, res) => {
+  console.log(req.body)
     try {
       const signed = await User.create(req.body);
       res.send(signed);
@@ -10,7 +11,7 @@ exports.add = async (req, res) => {
   }; 
 
   exports.getAll = (req, res) => {
-    // your code here
+  
     User.find()
       .then((users) => {
         res.send(users);
