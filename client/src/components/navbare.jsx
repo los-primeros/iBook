@@ -1,4 +1,4 @@
-import React from "react" ;
+import React from "react";
 import { Link } from 'react-router-dom'
 import { Button, Navbar, Nav, NavDropdown , Form , FormControl} from 'react-bootstrap';
 
@@ -17,7 +17,7 @@ function Navbare(props) {
                         <NavDropdown title="Countries" id="basic-nav-dropdown">
                             {[...props.country].map(element => <NavDropdown.Item ><Link to={"/countries/" + element}>{element}</Link> </NavDropdown.Item>)}
                         </NavDropdown>
-                        <Nav.Link ><Link to="/favoritelist">Favorite-List </ Link></Nav.Link>
+                        <Nav.Link ><Link to="/FavouriteList">favourite-List </ Link></Nav.Link>
                     </Nav>
                     <Form inline>
                         <FormControl type="text" placeholder="Search" className="mr-sm-2" />

@@ -9,11 +9,19 @@ const morgan = require("morgan");
 // todo: fix this
 var controllers = require("./controllers/usersignup");
 // var controllers = require("./controllers/userlogin");
-const controllers = require("./controllers/index.js");
+// const controllers = require("./controllers/index.js");
 const controller = require("./controllers/login.js");
+
+const router= require("./routes/hotels.routes");
+
+// app.use('/user', routes)
 
 
 const PORT = 4023;
+
+// bcrypt
+var bcrypt = require('bcrypt');
+const saltRounds = 10;
 
 app.use(express.json())
 app.use(morgan("dev"));
@@ -29,6 +37,7 @@ app.post("/api/signup", controllers.add)
 
 
 app.post("/api/login", controller.add)
+app.get("/api/login", controller.getAll)
 
 // app.get('/', (req, res) => {
 //   res.render('index')

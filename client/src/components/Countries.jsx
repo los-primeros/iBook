@@ -20,13 +20,12 @@ const [currentHotel, setCurrentHotel] = useState(null);
                  </div>   
                  <div>
                  <div>{currentHotel ? <HotelCard hotel={currentHotel} /> : null}</div>
-                <button > Reservation </button>
-                <button > Add To Favorite List </button>
+               
                  </div>  
              </div>
            
         )
-    
+
 }
 
 export default Countries

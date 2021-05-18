@@ -1,6 +1,7 @@
 const User = require("../db/models/user.js") 
 
 exports.add = async (req, res) => {
+  console.log(req.body)
     try {
       const signed = await User.create(req.body);
       res.send(signed);
