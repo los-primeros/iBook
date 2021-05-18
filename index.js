@@ -5,7 +5,11 @@ const db = require("./db/index.js");
 const bodyParser = require("body-parser");
 const path = require("path");
 const morgan = require("morgan");
-const controllers = require("./controllers/index.js");
+
+// todo: fix this
+var controllers = require("./controllers/usersignup");
+// var controllers = require("./controllers/userlogin");
+// const controllers = require("./controllers/index.js");
 const controller = require("./controllers/login.js");
 
 const router= require("./routes/hotels.routes");
@@ -22,8 +26,12 @@ const saltRounds = 10;
 app.use(express.json())
 app.use(morgan("dev"));
 app.use(express.urlencoded({ extended: true }));
-app.use(express.static(__dirname + "/client/dist"));
 
+app.use(express.static(__dirname + "/client/dist"));
+// app.use((req,res , next) => {
+//   console.log("hello")
+//   next()
+// })
 app.get("/api/signup", controllers.getAll)
 app.post("/api/signup", controllers.add)
 

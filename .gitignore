@@ -1,6 +1,2 @@
 node_modules
-<<<<<<< HEAD
 client/dist/bundle.js
-=======
-client/dist/bundle.js 
->>>>>>> d264c74790277a2747ca88bb1dcbe2c862b8d12b

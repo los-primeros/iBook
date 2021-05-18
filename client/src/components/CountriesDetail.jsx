@@ -1,14 +1,21 @@
 import React from "react";
-import { ListGroup, ListGroupItem } from 'react-bootstrap';
+import { ListGroup, ListGroupItem } from "react-bootstrap";
+
 
 function CountriesDetail(props) {
 
-    return (
-
-        <ListGroup>
-            <ListGroup.Item>{props.hotel.name}</ListGroup.Item>
-        </ListGroup>
-    )
+  return (
+    <div>
+      <ListGroup>
+        <ListGroup.Item>
+        
+          <div onClick={() => props.handleClick(props.hotel)}>
+            {props.hotel.name}
+          </div>
+        </ListGroup.Item>
+      </ListGroup>
+    </div>
+  );
 }
 
-export default CountriesDetail
+export default CountriesDetail;

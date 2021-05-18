@@ -10,4 +10,5 @@ var HotelDetails = (props) => {
   )
 }
 
+
 export default HotelDetails;

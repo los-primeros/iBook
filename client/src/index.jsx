@@ -2,14 +2,14 @@ import React, { useState, useEffect } from 'react';
 import ReactDOM from "react-dom";
 import Navbare from "./components/navbare.jsx"
 
-import HotelCard from './components/HotelCard.jsx'
 import HotelDetails from './components/HotelDetails.jsx'
 import FavouriteList from './components/FavouriteList.jsx'
 import data from '../../data.json'
 import SignUp from './components/SignUp.jsx'
 import Login from './components/Login.jsx'
 import Countries from './components/Countries.jsx'
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+// import HotelCard from './components/HotelCard.jsx'
+import { BrowserRouter as Router, Switch, Route , useRouteMatch } from 'react-router-dom'
 
 
 
@@ -25,6 +25,7 @@ function App() {
 
     const countries = new Set(hotels.map((hotel) => hotel.country))
     console.log(countries)
+
 
     return (
         <div className="background">
